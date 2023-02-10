@@ -1,0 +1,42 @@
+body {
+    background-color: #121212;
+}
+
+.root {
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+        "navbar main-view main-view"
+        "player player player";
+}
+
+.nav-bar {
+    grid-area: navbar;
+    background-color: rgba(0,0,0, .8);
+    width: 230px;
+    min-height: 0;
+    flex: 1;
+}
+
+.top-bar {
+    grid-area: main-view;
+    height: 60px;
+    z-index: 2;
+}
+
+.main {
+    grid-area: main-view;
+    flex: 1;
+    height: 100%;
+    min-height: 0;
+    overflow-y: scroll;
+}
+
+.player {
+    grid-area: player;
+    background-color: #181818;
+    height: 90px;
+}
