@@ -40,3 +40,8 @@ body {
     background-color: #181818;
     height: 90px;
 }
+
+.nav-bar-header .logo {
+    width: 131px;
+    max-height: 40px;
+}
