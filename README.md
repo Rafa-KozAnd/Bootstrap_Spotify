@@ -15,7 +15,7 @@
 - Resume: ;
 - Obs: ---;
 - Version: v.1.0.0
-- Last Update Date: 10/02/2023.
+- Last Update Date: 13/02/2023.
 
 ##
 
